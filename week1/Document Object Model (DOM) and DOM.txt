@@ -1,0 +1,31 @@
+Document Object Model (DOM) and DOM Manipulation
+What is the DOM?
+The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of a document as a tree of nodes, where each node represents an element, attribute, or piece of text. The DOM is not the actual HTML document, but rather a representation of it that can be manipulated by programming languages like JavaScript.
+
+The DOM is created by the web browser when an HTML document is loaded. It is a dynamic representation of the document, meaning that it can be modified by JavaScript code. The DOM is used by JavaScript to interact with the document, and it is also used by the browser to render the document on the screen.
+
+DOM Tree
+The DOM tree is a hierarchical representation of the document, where each node is an object that represents an element, attribute, or piece of text. The DOM tree consists of the following types of nodes:
+
+Element nodes: Represent HTML elements, such as <div>, <p>, and <img>.
+Attribute nodes: Represent the attributes of an element, such as href or src.
+Text nodes: Represent the text content of an element.
+Comment nodes: Represent comments in the HTML code.
+The DOM tree is used by JavaScript to navigate and manipulate the document. JavaScript can traverse the DOM tree to find specific elements, and it can also modify the DOM tree to change the structure and content of the document.
+
+DOM Manipulation
+DOM manipulation refers to the process of modifying the DOM tree to change the structure and content of an HTML document. This can be done using JavaScript, and it is a fundamental concept in web development.
+
+There are several ways to manipulate the DOM, including:
+
+Creating new elements: JavaScript can create new elements and add them to the DOM tree.
+Removing elements: JavaScript can remove elements from the DOM tree.
+Modifying element properties: JavaScript can modify the properties of an element, such as its text content or attributes.
+Traversing the DOM: JavaScript can traverse the DOM tree to find specific elements or to perform actions on multiple elements.
+Some common DOM manipulation methods include:
+
+document.createElement(): Creates a new element.
+element.appendChild(): Adds a new element to the DOM tree.
+element.removeChild(): Removes an element from the DOM tree.
+element.innerHTML: Sets or gets the HTML content of an element.
+element.style: Sets or gets the CSS styles of an element.

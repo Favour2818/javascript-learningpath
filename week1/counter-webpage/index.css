@@ -1,0 +1,30 @@
+*{
+    background-color: white;
+}
+.count {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 400%;
+}
+.three {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 400%;
+    color: green;
+}
+.but {
+    text-align: center;
+    font: 3em sans-serif;
+}
+#de {
+    border-radius: 5px 5px 5px 5px;
+    /* width: 100px; */
+}
+#re {
+    border-radius: 5px 5px 5px 5px;
+    /* width: 100px; */
+}
+#in {
+    border-radius: 5px 5px 5px 5px;
+    /* width: 100px; */
+}
