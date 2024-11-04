@@ -1,0 +1,51 @@
+Stacks
+A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. This means that the last element added to the stack is the first one to be removed.
+
+Key points about stacks:
+
+- Only the top element is accessible at any given time.
+- Operations on a stack include push (add to top), pop (remove from top), peek (get top element), and isEmpty 
+- Commonly used in scenarios where you need to maintain a history or undo functionality.
+
+Examples of stack usage:
+
+-Browser back button
+-Undo actions in text editors
+-Evaluating postfix expressions 
+
+
+Queues
+
+A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle. This means that the first element added to the queue is the first one to be removed.
+
+Key points about queues:
+
+-Only the front element is accessible at any given time 
+-Operations on a queue include enqueue (add to rear), dequeue (remove from front), peek (get front element), and isEmpty
+-Used in scenarios where order matters and you want to process elements in the order they arrived 2
+
+Examples of queue usage:
+
+-Job scheduling systems
+-Printer queues
+-Message processing systems 
+
+Key Differences
+
+1. Access pattern: In a stack, only the top element is accessible. In a queue, only the front element is accessible.
+
+2. Removal order: In a stack, the most recently added element is removed first. In a queue, the least recently added element is removed first.
+
+3. Usage scenarios: Stacks are useful for maintaining a history or implementing undo functionality, while queues are ideal for managing ordered sequences of items.
+
+4. Implementation: Stacks can be implemented using arrays or linked lists, while queues typically use arrays or circular buffers.
+
+Best Practices
+
+- Choose the appropriate data structure based on your specific requirements (LIFO vs FIFO)
+- Implement proper error handling for full/empty conditions
+- Consider the performance implications of choosing between array-based and linked-list implementations
+- Be aware of the trade-offs between space complexity and time complexity for different implementations.
+
+Understanding the differences between stacks and queues is crucial for effective data structure design and algorithm implementation in various programming contexts.
+
