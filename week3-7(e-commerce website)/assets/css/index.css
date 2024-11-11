@@ -1,6 +1,10 @@
 * {
     margin: 0px;
     padding: 0px;
+    /* max-width: 100%; */
+}
+body {
+    background-color: #FAFAFA;
 }
 #main-header {
     width: 100%;
@@ -173,19 +177,6 @@
     margin-right: 250px;
 }
 
-.shop-btn {
-    width: 150px;
-    height: 35px;
-    /* justify-content: center; */
-    margin-top: 10px;
-    color: #ffffff;
-    /* background: #7E0394; */
-    background: #000000;
-    color: #ffffff;
-    margin-left: 125px;
-
-}
-
 h2 {
     color: black;
     /* width: 267px; */
@@ -223,39 +214,192 @@ h1 {
     margin-left: 50px;
     font-family: BrownMedium;   
     font-size: 24px;
-    font-weight: 500;
-    line-height: 50px;
-    text-align: center;
+    font-weight: 515;
+    line-height: 30px;
+    /* text-align: center; */
 
 
+}
+
+.image-container {
+    position: relative;
+    width: 22%;
+}
+
+
+.image-container img {
+    width: 100%;
 }
 
 #collections {
-
     display: flex;
-    margin-left: 50px;
-    gap: 0.5rem;
+    margin-left: 25px;
+    margin-right: 25px;
+    gap: 2rem;
+    justify-content: space-between;
+    /* padding-left: 10px; */
 }
+
 .collection-text {
+    position: absolute;
     width: 44px;
     height: 23px;
     font-family: Brown;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
-    line-height: 23.1px;
+    line-height: 10px;
     text-align: center;
-    /* color: ; */
+    color: white; 
+    top: 5%; 
+    left: 5%;
 
+
+} 
+
+.collection-btn {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    color: #ffffff;
+    background: #000000;
+    bottom: 10px; 
+    left: 20%;
 
 }
 
-.collection-btn {
+.shop {
+    padding-top: 10px;
+    font-family: BrownLight;
+    font-size: 25px;
+    font-weight: 500;
+    /* line-height: 10px; */
+    text-align: center;
+    /* width: 600px; */
+    margin-top: 40px;
+    margin-right: 1000px;
+}
+
+#shop-container {
+     display: flex;
+/*  flex-direction: row; */
+    /* grid-template-columns: ; */
+    width: 100%;
+    gap: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+  
+}
+
+
+.shop-btn {
     width: 150px;
     height: 35px;
+    /* justify-content: center; */
     margin-top: 10px;
     color: #ffffff;
+    /* background: #7E0394; */
     background: #000000;
-    color: #ffffff;
-    margin-left: 50px;
+    margin-left: 125px;
+    justify-content: center;
+}
 
+.lipstick {
+    border: 2px solid #FAFAFA; 
+    padding: 20px;          
+    margin: 10px;           
+    box-sizing: border-box; 
+    width: 250px;
+    height: 460px;
+    background: #fff;
+    box-shadow: #FAFAFA;
+    
+    
+
+}
+
+.lipstick-image {
+    /* width: 243px; */
+    
+    /* height: 160px; */
+    top: -2px;
+    border: 0px 0px 1px 0px;
+ 
+}
+.lipstick-image img {
+    width: 100%;
+}
+
+.lipstick-text {
+    margin-top: 50px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-family: BrownMedium;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+
+
+}
+ .price {
+    font-family: BrownMedium;
+    font-size: 16px;
+    font-weight: 600;
+    /* line-height: 18.45px; */
+    /* text-align: left; */
+    margin-top: 10px;
+
+ }
+.lip-add {
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    /* margin-right: -150px; */
+
+}
+
+.par-add {
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    margin-top: 5px;
+}
+.pal-add {
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.gift-add {
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.curls-add {
+    width: 210px;
+    height: 40px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+
+#img-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 5rem;
+}
+
+.bs {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: BrownMedium;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.img-1{
+    margin-left: 50px;
 }
