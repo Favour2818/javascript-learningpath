@@ -858,6 +858,9 @@ body {
 
 }
 
+
+/* review section */
+
 /*   
   .review-section {
     max-width: 800px;
@@ -913,7 +916,7 @@ body {
     margin-bottom: 21px;
   } */
   
-  .stars {
+  .review-stars {
     margin-bottom: 10px;
 
   }
@@ -952,7 +955,7 @@ body {
   
   .pagination span {
     font-size: 18px;
-    margin: 0 10px;
+    margin: 0 5px;
     cursor: pointer;
   }
   
@@ -960,8 +963,81 @@ body {
     font-weight: bold;
   }
   
+/* review ratings */
 
 
+/* .review-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  } */
+  
+  .review-form h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .overall-rating {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .review-ratings-stars {
+    text-align: center;
+    font-size: 24px;
+    color: #ccc; /* Set stars to light gray initially */
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 70%;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #0000004D;
+  }
+  
+  .input-group textarea {
+    resize: none;
+  }
+  
+  .submit-btn {
+    display: block;
+    margin: 10px auto 50px auto;
+    padding: 7px 50px 7px 50px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #444;
+  }
+  
+  @media (max-width: 768px) {
+    .review-form {
+      padding: 15px;
+    }
+  
+    .submit-btn {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
 
 
 /* Related Products */
