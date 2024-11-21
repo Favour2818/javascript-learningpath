@@ -16,21 +16,40 @@ body {
     background-color: #F3F3F3;
 }
 
+
+/* collections */
+
+.collections-header {
+    display: flex;
+    justify-content: space-between;
+    font-family: BrownMedium;
+    margin: 150px 0 20px 60px;
+}
+
 .our-collections {
-    width: 157px;
-    margin-top: 150px;
-    margin-left: 60px;
+    /* width: 157px; */
     font-family: BrownMedium;   
     font-size: 24px;
-    font-weight: 530;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.view-all {
+    font-family: BrownLight;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.4px;
+    text-align: left;
+    margin-right: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+
 }
 
 .image-container {
-    margin-top: 10px;
+    /* margin-bottom: 10px; */
     position: relative;
     width: 22%;
-    background-image: url();
 }
 
 
@@ -38,17 +57,16 @@ body {
     width: 100%;
 }
 
-/* collections */
-
 #collections {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
 
+
 .collection-text {
     position: absolute;
-    height: 23px;
+    /* height: 23px; */
     font-family: Brown;
     font-size: 15px;
     font-weight: 700;
@@ -57,8 +75,6 @@ body {
     color: white; 
     top: 5%; 
     left: 5%;
-
-
 } 
 
 .collection-btn {
@@ -69,18 +85,9 @@ body {
     background: #000000;
     bottom: 10px; 
     left: 20%;
-
 }
 
 /* Products */
-
-.shop {
-    font-family: BrownLight;
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 50px;
-    margin-left: 55px;
-}
 
 .shop-container {
     display: flex;
@@ -154,17 +161,22 @@ body {
 /* The perfume club */
 
 #img-container {
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     gap: 30px;
     height: 300px;
-    position: relative;
+    position: relative;
 }
+
+
+/* .column-1, .column-2 {
+    position: relative;
+    position: 200px;
+} */
 .column-1 {
     position: relative;
     position: 200px;
-    /* margin-bottom: 100px; */
 }
 .column-1 .column-img {
     padding: 1px 0 60px;
@@ -178,11 +190,11 @@ body {
     position: absolute;
     background-color: #FFEAEF;
     top: -10px;
-    right: 70px;
-    left: 40px;
+    right: 10px;
+    left: 10px;
     z-index: -1;
-    bottom: 40px;
-} 
+    bottom: 50px;
+}
 
 .column-2 {
     position: relative;
@@ -214,14 +226,17 @@ body {
     margin: 70px 0;
     background: #FFF1F4;
     height: 250px;
-    padding: 0px 45px;
+    padding: 0px 20px;
 }
 
 .services{
+    max-width: 1440px;
+    width: 100%;
     display: flex;
-    gap: 8rem;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 30px auto;
 }
+
 
 .service-img {
     background: #7E0394;
@@ -231,19 +246,17 @@ body {
     width: 50px;
     height: 50px;
     align-items: center;
-    margin: 30px auto 0;
+    margin: 30px auto;
 }
+
+
 .service-text {
-    width: 200px;
-    height: 60px;
-    font-family: BrownLight;
+    max-width: 250px;
+    font-family: "BrownLight";
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin-top: 30px;
+    text-align: center;
 }
 
 #reviews {
@@ -307,10 +320,7 @@ body {
 
 .icon {
     display: flex;
-}
-
-.icon-img {
-    margin-left: 650px;
+    justify-content: space-between;
 }
 
 
@@ -358,8 +368,8 @@ body {
     gap: 1rem;
     width: 100%;
     padding: 1rem;
-    margin-top: 150px;
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-left: 200px;
 }
 .product-list .lipstick{
     width: 31%;
@@ -508,14 +518,12 @@ body {
 }
 
 .price {
-    font-family: BrownMedium !important;
-    font-size: 24px !important;
-    font-weight: 400 !important;
-    line-height: 27.67px !important;
-    text-align: left !important;
-    text-underline-position: from-font !important;
-    text-decoration-skip-ink: none !important;
-    color: black !important;    
+    font-family: "BrownMedium";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.67px;
+    color: black;
+    margin-bottom: 10px;
 }
 
 .color-options {

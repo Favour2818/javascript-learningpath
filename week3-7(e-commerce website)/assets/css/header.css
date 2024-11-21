@@ -24,6 +24,9 @@
     color: #5A5A5A;
 }
 
+#main-header img{
+    margin-top: 10px;
+}
 .container {
     list-style-type: none;
     height: 100%;
