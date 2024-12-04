@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Information</title>
+  <link rel="stylesheet" href="./assets/css/cart-info.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+  <div class="">
+  <header class="header page">
+    <img src="assets/images/png/blackbeauteshoplogo.png" alt="Black Beaute Shop Logo" class="logo">
+  </header>
+
+  <nav class="breadcrumbs page">
+    <a href="#">Home</a> > <a href="#">Shopping Bag</a> > <span>Information</span> > <a href="#">Shipping</a> > <a href="">Payment</a>
+  </nav>
+
+  <main class="checkout-container page">
+    <section class="checkout-form">
+      <div class="login-link">
+        <h2>Contact Information</h2>
+        <span>Have an account? <a href="#">Log In</a></span>
+      </div>
+      <form>
+        <div class="form-group"></label>
+          <input type="email" id="email" placeholder="Email address">
+        </div>
+        <div class="form-group checkbox">
+          <input type="checkbox" id="email-offers">
+          <label for="email-offers">Email me news and offers</label>
+        </div>
+
+        <h3>Shipping Details</h3>
+        <div class="form-group">
+          <input type="text" id="first-name" placeholder="First name">
+        </div>
+        <div class="form-group">
+          <input type="text" id="last-name" placeholder="Last name">
+        </div>
+        <div class="form-group">
+          <select id="country">
+            <option value="">Country/Region</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="text" id="street-address" placeholder="Street address">
+        </div>
+        <div class="form-group">
+          <input type="text" id="city" placeholder="City/Town">
+        </div>
+        <div class="form-group">
+          <select id="state">
+            <option value="">State</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="text" id="postal-code" placeholder="Postal code (optional)">
+        </div>
+        <div class="form-group">
+          <input type="tel" id="phone-number" placeholder="Phone number">
+        </div>
+
+        <div class="action-buttons">
+          <button type="submit" class="primary-button">Continue to shipping</button>
+          <a href="#" class="secondary-link">Go back to bag</a>
+        </div>
+      </form>
+    </section>
+
+    <aside class="order-summary">
+      <h2>Order Summary</h2>
+      <div class="summary-item">
+        <img src="assets/images/jpeg/cart-lipstick.jpeg" alt="Pelsin Nude stick lipstick" width="91px" height="107px">
+        <div>
+          <h3>Pelsin Nude stick lipstick</h3>
+          <p>Nude</p>
+          <p>x2</p>
+        </div>
+        <p class="price">N 5,000</p>
+      </div>
+      <hr>
+      <div class="summary-details">
+        <p>Sub total (1 item): <span>N 5,000</span></p>
+        <p>Transaction fees: <span>N 156</span></p>
+        <p>Shipping: <span>To be calculated at next step</span></p>
+        <hr>
+        <p><strong>Total:</strong> <span><strong>N 5,156</strong></span></p>
+      </div>
+    </aside>
+  </main>
+  </div>
+
+  <!-- <footer class="footer">
+    
+    <div class="footer-container">
+      <div class="footer-column1">
+        <img class="footer-img" src="assets/images/png/blackbeauteshoplogo2.png" alt="Black Beauty Shop Logo"/>
+        
+        <h4>We believe in the culture of natural beauty.</h4>
+        <h4>Our vision is to explore and promote the best selection of locally
+          made beauty products ( African & Global) in ways that empower and
+          celebrate the excellence of black beauty.</h4>
+        
+        <div class="official-mail">
+          <a href=""><h5>talk@blackbeauteshop.com</h5></a>
+          
+          <a href=""><img src="assets/images/png/outgoing-mail.png" alt=""></a>
+        </div>
+        
+        
+        <p>© 2023 Black beaute shop. All Rights Reserved.</p>
+      
+      
+      </div>
+      
+      <div class="footer-column2">
+        <h4>About</h4>
+        <ul class="footer-ul">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Join Us</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column3">
+        <h4>Products</h4>
+        <ul class="footer-ul">
+          <li><a href="product-page.html">Body Care</a></li>
+          <li><a href="product-page.html">Hair</a></li>
+          <li><a href="product-page.html">Make Up</a></li>
+          <li><a href="product-page.html">Nails</a></li>
+          <li><a href="product-page.html">Scents & Fragrances</a></li>
+          <li><a href="product-page.html">Men</a></li>
+          <li><a href="product-page.html">Gifts</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column4">
+        <h4>My Account</h4>
+        <ul class="footer-ul">
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">My Shopping Bag</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">Checkout</a></li>
+        </ul>
+      </div>
+      <div class="footer-column5">
+        <h4>Join Our Mail List</h4>
+        <form>
+          <input type="email" name="email" placeholder="Email Address">
+        </form>
+        
+        <div class="footer-icons">
+          <a href=""><img src="assets/images/png/mdi_facebook.png" alt=""></a>
+          <a href=""><img src="assets/images/png/mdi_instagram.png" alt=""></a>
+          <a href=""><img src="assets/images/png/mdi_twitter.png" alt=""></a>
+          <a href=""><img src="assets/images/png/mdi_whatsapp.png" alt=""></a>
+          <a href=""><img src="assets/images/png/mdi_youtube.png" alt=""></a>
+        </div>
+        
+        <div>
+          <div class="payment-icons">
+            <a href=""><img src="assets/images/png/paystack.png" alt=""></a>
+            <a href=""><img src="assets/images/png/verve.png" alt=""></a>
+            <a href=""><img src="assets/images/png/mastercard.png" alt=""></a>
+            <a href=""><img src="assets/images/png/visa.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+</body>
+</html>

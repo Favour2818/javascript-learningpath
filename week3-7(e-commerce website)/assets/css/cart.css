@@ -1,0 +1,189 @@
+.product-info {
+    display: flex;
+    /* gap: 50px;
+    margin-left: 70px; */
+    justify-content: space-around;
+}
+.breadcrumb {
+    font-size: 14px;
+    color: #7E0394CC;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.breadcrumb span {
+    margin: 0 5px;
+}
+.cart-item {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 661px;
+    height: 200px;
+    padding: 0px 10px;
+    margin-bottom: 20px 0;
+    border: 1px solid #8D8D8D33;
+}
+.cart-item div img {
+    width: 150px;
+    height: 100%;
+}
+
+.cart-item-details {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 5px 0px 5px 10px;
+    /* gap: 5px; */
+    width: 100%;
+    height: 100%;
+}
+
+.cart-item-details h4 {
+    margin: 0;
+    font-size: 18px;
+}
+.cart-item-details p {
+    margin: 5px 0;
+    color: #000000;
+}
+.cart-item-details .price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-quantity {
+    border: 1px solid #8D8D8D66; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    width: 80px; 
+    padding: 10px; 
+    height: 10px;
+    margin: 0;
+}
+.cart-content {
+    display: flex; 
+    align-items: center;
+     gap: 5px;
+}
+
+.cart-content2 {
+    background: #FCE4C8;
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%;
+}
+
+.cart-content3 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%;
+}
+
+.cart-quantity div button, .cart-quantity div {
+    border: none; 
+    background-color: transparent;
+    width: 20px; 
+    cursor: pointer;
+    margin: 0;
+} 
+
+.cart-item-details .remove {
+    margin-top: 10px;
+    color: #000;
+    text-decoration: underline;
+}
+
+.summary{
+    padding: 20px;
+    /* width: 35%; */
+}
+
+.summary2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary hr{
+    width: 100%;
+    color: #8D8D8D33;
+    margin: 20px 0;
+}
+
+.summary h4 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #000000;
+}
+.summary p {
+    margin: 5px 0;
+    color: #000000;
+    font-family: BrownLight;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.4px;
+}
+.summary .total {
+    font-size: 18px;
+    font-weight: bold;
+}
+.summary .coupon {
+    display: flex;
+    margin-top: 10px;
+}
+.summary .coupon input {
+    flex: 1;
+    padding: 10px;
+    /* border: 1px solid #e0e0e0; */
+    border: 1px solid #0000004D;
+    margin-right: 10px;
+    background-color: transparent;
+}
+.summary .coupon button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.action-1 button {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-top: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.actions button {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+ 
+.cs {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: BrownMedium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.45px;
+}
