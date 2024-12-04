@@ -8,38 +8,207 @@
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
 </head>
 <body>
-
-    <div id="advertisement">
-        <p id="advert-text">Enjoy up to 10% off shipping costs on first 40 orders</p>
-      </div>
-    <header id="main-header">
-        <div class="container">
+<div class="page">
+    <section>
+        <div id="advertisement">
+          <p id="advert-text">Enjoy up to 10% off shipping costs on first 40 orders</p>
+        </div>
+        <header id="main-header">
+          <div class="container">
             <nav class="nav-list">
-                <ul>
-                    <li><a href="#">About BBS</a></li>
-                    <li><a href="#">Best Sellers</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Brands We Sell</a></li>
-                    <li><a href="#">Returns</a></li>
-                </ul>
+              <ul>
+                <li><a href="#">About BBS</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Brands We Sell</a></li>
+                <li><a href="#">Returns</a></li>
+              </ul>
             </nav>
             <a href="/week3-7(e-commerce website)/index.html"><img style="align-self: center" src="assets/images/png/blackbeauteshoplogo.png" alt="Black Beauty Shop Logo"/></a>
-            <button class="trade-btn">Trade Room</button>
+           
+            
+    
+            <div class="search-container">
+                <button class="trade-btn">Trade Room</button>
+                <nav class="nav-list">
+                    <ul>
+                      <li><a href="#"><img src="assets/images/png/magnify.png" alt="Search"/></a></li>
+                      <li><a href="#"><img src="assets/images/png/account-circle.png" alt="Account"/></a></li>
+                      <li><a href="#"><img src="assets/images/png/heart.png" alt="Wishlist"/></a></li>
+                      <li><a href="#"><img src="assets/images/png/shopping.png" alt="Cart"/></a></li>
+                    </ul>
+                  </nav>
+            </div>
+         
+          </div>
+        </header>
+        <nav id="navbar">
+          <ul class="nav-links">
+            <li><a href="product-detail.html">New In</a></li>
+            <li><a href="product-detail.html">BodyCare</a></li>
+            <li><a href="product-detail.html">Hair</a></li>
+            <li><a href="product-detail.html">Makeup</a></li>
+            <li><a href="product-detail.html">Nails</a></li>
+            <li><a href="product-detail.html">Scents & Fragrances</a></li>
+            <li><a href="product-detail.html">Men</a></li>
+            <li><a href="product-detail.html">Gift</a></li>
+            <li class="Sale"><a href="product-detail.html">Sale</a></li>
+          </ul>
+        </nav>
+      </section>
 
-            <nav class="nav-icons">
-                <ul>
-                    <li><a href="#"><img src="assets/images/png/magnify.png" alt="Search" /></a></li>
-                    <li><a href="#"><img src="assets/images/png/account-circle.png" alt="Account" /></a></li>
-                    <li><a href="#"><img src="assets/images/png/heart.png" alt="Wishlist" /></a></li>
-                    <li><a href="#"><img src="assets/images/png/shopping.png" alt="Cart" /></a></li>
-                </ul>
-            </nav>
+    
+            <div class="breadcrumb">
+            <a href="#">Home</a>
+            <span>&gt;</span>
+            <a class="active" href="#">Shopping Bag</a>
+            <span>&gt;</span>
+            <a href="#">Information</a>
+            <span>&gt;</span>
+            <a href="#">Shipping</a>
+            <span>&gt;</span>
+            <a href="#">Payment</a>
+            </div>
+
+
+            <div class="product-info">
+
+               <div>
+                    <div class="cart-item">
+                        <div><img alt="Nude lipstick with a black case" src="assets/images/jpeg/lipstick.jpeg"/></div>
+                    
+                        <div class="cart-item-details">
+                            <h4>Pelsin Nude stick lipstick</h4>
+                            
+                            <div class="cart-content">
+                                <div class="cart-content2"></div>
+                                <p>Nude</p>
+                            </div>
+                            <p class="price">N 2,500</p>
+                            <div class="cart-content3">
+                                
+                                <div class="cart-quantity" >
+                                    <div><button>-</button></div>
+                                    <div>1</div>
+                                    <div><button>+</button></div>
+                                </div>
+
+                                <div>
+                                    <a class="remove" href="#">Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="action-1">
+                        <button>Update bag</button>
+                    </div>
+
+                    <a class="cs" href="#">Continue shopping </a>
+                </div>
+
+
+                <div style="width: 35%;">
+                    <div class="summary">
+                        <div class="summary2">
+                            <h4>Sub total (1 item)</h4>
+                            <p class="total"> N 2,500</p>
+                        </div>
+    
+                        <div class="summary3">
+                            <p>Shipping</p>
+                            <p>To be calculated at checkout</p>
+                        </div>
+    
+                        <hr>
+                
+                        <div class="coupon">
+                            <input placeholder="Coupon Code" type="text"/>
+                            <button>Apply</button>
+                        </div>
+    
+                        <hr>
+    
+                    </div>
+
+                    <div class="actions">
+                        <button>Checkout</button>
+                    </div>
+                    
+                </div>
+
+
+
+               
+                
+            </div>
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <main class="shopping-bag">
+        <div class="breadcrumbs">
+          <a href="#">Home</a> > <a href="#">Shopping Bag</a> > <a href="#">Information</a> > <a href="#">Shipping</a> > Payment
         </div>
-    </header>
-
-
+        
+        <div class="bag-details">
+          <div class="product-info">
+            <img src="assets/images/jpeg/lipstick.jpeg" alt="Pelsin Nude stick lipstick">
+            <div>
+              <h3>Pelsin Nude stick lipstick</h3>
+              <p>Nude</p>
+              <p>N 2,500</p>
+              <div class="value">
+                <input type="number" value="1" min="1">
+              </div>
+            </div>
+            <div>
+                <a href="" class="remove">Remove</a> 
+            </div>
+          </div>
+    
+          <div class="summary">
+            <p><strong>Sub total (1 item)</strong> N 2,500</p>
+            <p><strong>Shipping</strong> To be calculated at checkout</p>
+            <div class="coupon">
+              <input type="text" placeholder="Coupon Code">
+              <button>Apply</button>
+            </div>
+            <button class="checkout-btn">Checkout</button>
+          </div>
+        </div>
+    
+        <div class="action-buttons">
+          <button class="update-bag">Update Bag</button>
+          <a href="#" class="continue-shopping">Continue Shopping</a>
+        </div>
+      </main> -->
 
 
 
@@ -130,6 +299,6 @@
         </div>
 
     </footer>
-    
+</div>
 </body>
 </html>
