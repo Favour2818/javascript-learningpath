@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'BrownLight';
+    src: url("../images/png/Brown-Light.ttf");
+}
+
+@font-face {
+    font-family: 'BrownMedium';
+    src: url("../images/png/BrownMedium.ttf");
+}
 .product-info {
     display: flex;
     /* gap: 50px;
@@ -62,10 +71,11 @@
     height: 10px;
     margin: 0;
 }
+
 .cart-content {
     display: flex; 
     align-items: center;
-     gap: 5px;
+    gap: 5px;
 }
 
 .cart-content2 {
