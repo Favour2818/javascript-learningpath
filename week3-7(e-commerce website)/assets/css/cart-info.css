@@ -1,4 +1,13 @@
-/* General Styles */
+
+@font-face {
+  font-family: 'BrownLight';
+  src: url("../images/png/Brown-Light.ttf");
+}
+
+@font-face {
+  font-family: 'BrownMedium';
+  src: url("../images/png/BrownMedium.ttf");
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -100,20 +109,29 @@ body {
     flex: 1;
     max-width: 400px;
     /* background: #f9f9f9; */
-    padding: 20px;
+    padding: 0 0 0 20px;
     border-left: 1px solid #ddd;
-  }
-  
-  .order-summary h2 {
-    margin-bottom: 20px;
   }
   
   .summary-item {
     display: flex;
+    /* justify-content: space-around; */
     gap: 10px;
     margin-bottom: 20px;
   }
+
+  .cart-content {
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
   
+  .cart-content2 {
+    background: #FCE4C8;
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%;
+}
   /* .summary-item img {
     max-width: 50px;
     max-height: 50px;
@@ -121,11 +139,16 @@ body {
   
   .price {
     margin-left: auto;
+    font-family: BrownMedium;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18.45px; 
   }
   
   .summary-details p {
     display: flex;
     justify-content: space-between;
+    color: #8D8D8D;
   }
   
   hr {
@@ -150,3 +173,207 @@ body {
     }
   }
   
+
+
+
+
+/*  */
+
+.shipping-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.shipping-details {
+  flex: 1;
+  max-width: 600px;
+}
+
+.shipping-details h2 {
+  margin-bottom: 10px;
+}
+
+.change-link {
+  font-family: BrownLight;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.4px;
+  margin-left: 10px;
+  text-decoration: underline;
+  color: black;
+}
+
+.shipping-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.shipping-option input {
+  margin-right: 10px;
+}
+
+.shipping-option span {
+  display: block;
+}
+
+.shipping-option .price {
+  font-family: BrownLight;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.4px;
+  text-underline-position: from-font;
+}
+
+.shipping-type {
+  font-family: BrownMedium;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  text-underline-position: from-font;
+}
+
+.duration {
+  width: 150px;
+  height: 15px;
+  font-family: BrownLight;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 13px;
+  text-align: left;
+  text-underline-position: from-font;
+}
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .shipping-container {
+    flex-direction: column;
+  }
+
+  .order-summary {
+    margin-top: 20px;
+  }
+}
+
+
+/*  */
+
+.payment-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card-logos {
+  display: flex;
+  gap: 5px;
+}
+
+.card-logos img {
+  height: 25px;
+  object-fit: contain;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.primary-button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #333;
+}
+
+.secondary-button {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+}
+
+.secondary-button:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .payment-container {
+      padding: 15px;
+  }
+
+  .input-group {
+      flex-direction: column;
+  }
+
+  .buttons {
+      flex-direction: column;
+      align-items: stretch;
+  }
+
+  .primary-button {
+      width: 100%;
+  }
+
+  .secondary-button {
+      text-align: center;
+  }
+}
