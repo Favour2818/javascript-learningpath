@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/cart-info.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="shipping-container page">
+        <section class="shipping-details">
+          <h2>Information</h2>
+          <p>krisjen@gmail.com <a href="#" class="change-link">Change</a></p>
+          <p>Kris Jen <a href="#" class="change-link">Change</a></p>
+          <p>39b, Karimu Street, Ikeja, Lagos State, Nigeria. <a href="#" class="change-link">Change</a></p>
+          <p>+234 816 789 1234 <a href="#" class="change-link">Change</a></p>
+    
+          <div class="">
+            <h1>Payment</h1>
+            <h2>Card Information</h2>
+            <form class="payment-form">
+                <div class="input-group">
+                    <input type="text" placeholder="Card number" required>
+                    <div class="card-logos">
+                        <img src="verve-logo.png" alt="Verve">
+                        <img src="visa-logo.png" alt="Visa">
+                        <img src="mastercard-logo.png" alt="MasterCard">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="text" placeholder="Exp. date (MM/YY/DD)" required>
+                    <input type="text" placeholder="CVV" required>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="save-payment">
+                    <label for="save-payment">Save payment information for faster payment next time</label>
+                </div>
+                <div class="buttons">
+                    <button type="submit" class="primary-button">Place order</button>
+                    <a href="shipping.html" class="secondary-button">Go back to shipping</a>
+                </div>
+            </form>
+        </div>
+        </section>
+    
+        <aside class="order-summary">
+          <h2>Order Summary</h2>
+          <div class="summary-item">
+            <img src="assets/images/jpeg/cart-lipstick.jpeg" alt="Pelsin Nude stick lipstick" width="91px" height="107px">
+            <div>
+              <h3>Pelsin Nude stick lipstick</h3>
+              <div class="cart-content">
+                <div class="cart-content2"></div>
+                <p>Nude</p>
+            </div>
+              <p>x2</p>
+            </div>
+            <p class="price">N 5,000</p>
+          </div>
+          <hr>
+          <div class="summary-details">
+            <p>Sub total (1 item): <span>N 5,000</span></p>
+            <p>Transaction fees: <span>N 156</span></p>
+            <p>Shipping: <span>Free</span></p>
+            <hr>
+            <p style="color: black;"><strong>Total:</strong> <span><strong>N 5,156</strong></span></p>
+          </div>
+        </aside>
+      </main>
+</body>
+</html>
