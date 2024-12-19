@@ -24,8 +24,10 @@ body {
   }
   
   .breadcrumbs {
-    padding: 10px 20px;
     font-size: 14px;
+    color: #7E0394CC;
+    margin-top: 20px;
+    /* margin-left: 10px; */
   }
   .page {
     padding: 20px 80px;
@@ -36,6 +38,9 @@ body {
     color: #7E0394CC;
   }
   
+  .breadcrumbs span {
+    margin: 0 5px;
+}
   .checkout-container {
     display: flex;
     gap: 50px;
@@ -195,6 +200,12 @@ body {
 .shipping-details p {
   display: flex;
   justify-content: space-between;
+  font-family: BrownLight;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.4px;
+  color: #000000;
+
 }
 .change-link {
   font-family: BrownLight;
@@ -203,7 +214,7 @@ body {
   line-height: 18.4px;
   margin-left: auto;
   text-decoration: underline;
-  color: black;
+  color: #00000099;
 }
 
 .shipping-option {
@@ -267,7 +278,7 @@ body {
 }
 
 
-/*  */
+/* shipping page 2 */
 
 .payment-container {
   max-width: 600px;
